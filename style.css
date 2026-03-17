@@ -16,6 +16,10 @@ p {
   font-size: 1.3rem;
 }
 
+li {
+    font-size: 1.2rem;
+}
+
 #title {
    text-align: center;
 }
@@ -36,7 +40,23 @@ p {
 }
 
 #ul_pres_activ {
+  list-style: none;
+}
 
+#activ_list_item_1 {
+  
+}
+
+#activ_list_item_2 {
+  
+}
+
+#activ_list_item_3 {
+  
+}
+
+#activ_list_item_4 {
+  
 }
 
 #intro_sent_link {
