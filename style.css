@@ -30,9 +30,9 @@ li {
 }
 
 #presentation {
-  padding : 1rem;
-  text-align: left;
-  justify-content:space-evenly;
+  text-align: justify;
+  text-indent: 0em;
+  margin : 0% 7%
 }
 
 #pres_activ {
