@@ -43,20 +43,20 @@ li {
   list-style: none;
 }
 
-#activ_list_item_1 {
-  
+#activ_list_item_1::before {
+  content: "🔤";
 }
 
-#activ_list_item_2 {
-  
+#activ_list_item_2::before {
+  content: "👁️";
 }
 
-#activ_list_item_3 {
-  
+#activ_list_item_3::before {
+  content: "👄";
 }
 
-#activ_list_item_4 {
-  
+#activ_list_item_4::before {
+  content: "🧠";
 }
 
 #intro_sent_link {
