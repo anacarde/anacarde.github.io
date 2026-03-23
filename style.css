@@ -95,8 +95,8 @@ li {
 
 #activ_main_squ {
   display: flex;
-  justify-content: space-between;
-  width: 300px;
+  justify-content:space-around;
+  width: 100%;
 }
 
 .activ_sub_squ {
@@ -106,14 +106,24 @@ li {
 }
 
 .activ_squ {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 70px;
+  margin: 20px 0px;
   border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.activ_link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.activ_link:hover {
+  transform: scale(1.1);
+  display: inline-block;
+}
 
 #activ_squ_1 {
 
@@ -158,10 +168,6 @@ li {
 }
 
 .text {
-
-}
-
-.activ_link {
 
 }
 
