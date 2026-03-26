@@ -21,7 +21,9 @@ li {
 }
 
 #title {
-  widht: 20%;
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
 }
 
 #title-aside {
