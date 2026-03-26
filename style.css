@@ -22,13 +22,15 @@ li {
 }
 
 #title {
-  width: 60vw;
+  width: 45vw;
+  transform: scaleX(1.20);
   display: block;
   margin: 0 auto;
 }
 
 #title-aside {
   text-align: right;
+  margin-right: 20px;
   font-style: italic;
 }
 
@@ -42,10 +44,10 @@ li {
   padding : 50px;
   border: 1px solid black;
   border-radius: 40%;*/
-  width: 75vw;
+  width: 60vw;
   display: block;
   margin: 0 auto;
-  transform: scaleX(1.20);
+  transform: scaleX(1.30);
 }
 
 #pres_activ {
