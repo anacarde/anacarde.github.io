@@ -42,7 +42,10 @@ li {
   padding : 50px;
   border: 1px solid black;
   border-radius: 40%;*/
-  
+  width: 75vw;
+  display: block;
+  margin: 0 auto;
+  transform: scaleX(1.20);
 }
 
 #pres_activ {
