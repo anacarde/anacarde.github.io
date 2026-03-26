@@ -147,6 +147,7 @@ li {
 }
 
 #activ_squ_2 {
+
 }
 
 #activ_squ_3 {
@@ -172,12 +173,50 @@ li {
 #activ_squ_4 a {
   background-color: darkslategray;
 }
+
 #follow_link_sent {
 
 }
 
 #ul_reas_inter {
 
+}
+
+.text {
+
+}
+
+#reas_us_serv_1::before {
+  content: "🔤";
+  color: blue;
+}
+
+#reas_us_serv_2::before {
+  content: "👁️";
+}
+
+#reas_us_serv_3::before {
+  content: "👄";
+}
+
+#reas_us_serv_4::before {
+  content: "🧠";
+}
+
+#reas_us_serv_1 {
+  color: blue; 
+}
+
+#reas_us_serv_2 {
+  /*color: darkgreen;*/
+}
+
+#reas_us_serv_3 {
+  /*color: brown;*/
+}
+
+#reas_us_serv_4 {
+  /*color: darkslategrey;*/
 }
 
 #ask_cont_sent {
@@ -197,10 +236,6 @@ li {
 }
 
 .presentation {
-
-}
-
-.text {
 
 }
 
