@@ -231,7 +231,15 @@ li {
 }
 
 #mail {
-
+  display: block;
+  margin: 30px auto;
+  width: 30vw;
+  padding: 10px 20px;;
+  text-align: center;
+  background-color: saddlebrown;
+  color: white;
+  font-size: 1.3rem;
+  border: 5px solid black;
 }
 
 #price_sent {
