@@ -186,9 +186,15 @@ li {
 
 }
 
+.li_reas_inter {
+  font-style: italic;
+  list-style: none;
+  padding: 10px;
+  line-height: 1.6;
+}
+
 #reas_us_serv_1::before {
   content: "🔤";
-  color: blue;
 }
 
 #reas_us_serv_2::before {
@@ -205,18 +211,19 @@ li {
 
 #reas_us_serv_1 {
   color: blue; 
+
 }
 
 #reas_us_serv_2 {
-  /*color: darkgreen;*/
+  color: darkgreen;
 }
 
 #reas_us_serv_3 {
-  /*color: brown;*/
+  color: brown;
 }
 
 #reas_us_serv_4 {
-  /*color: darkslategrey;*/
+  color: darkslategrey;
 }
 
 #ask_cont_sent {
@@ -236,10 +243,6 @@ li {
 }
 
 .presentation {
-
-}
-
-.li_reas_inter {
 
 }
 
