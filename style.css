@@ -247,6 +247,10 @@ li {
   padding-right: 10px;
 }
 
+#mail.copied {
+  background-color: #dff5e1;
+}
+
 #price_sent {
 
 }
