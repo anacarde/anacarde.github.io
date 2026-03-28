@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
   btn.addEventListener("click", function(e) {
     e.preventDefault();
     navigator.clipboard.writeText("lazare.monin@gmail.com").then(() => {
-    copyMail.classList.add("copied");
+    btn.classList.add("copied");
 
     setTimeout(() => {
-      copyMail.classList.remove("copied");
+      btn.classList.remove("copied");
     }, 1600);
   });
 });
