@@ -5,13 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
    
       e.preventDefault();
       navigator.clipboard.writeText("lazare.monin@gmail.com").then(() => {
-      btn.classList.add("copied");
+         
+         btn.classList.add("copied");
 
-      setTimeout(() => {
+         setTimeout(() => {
          btn.classList.remove("copied");
-      }, 1600);
-      
-      console.log("salut");
+         }, 1600);
       });
    });
 });
