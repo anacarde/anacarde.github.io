@@ -9,6 +9,10 @@ nav {
 }
 
 #nav_list {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .nav_button {
