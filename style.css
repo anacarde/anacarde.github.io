@@ -4,6 +4,10 @@ body {
   font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+.short {
+  display: none;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -310,11 +314,13 @@ li {
 /* RESPONSIVE */
 
 @media (max-width: 600px) {
-    .navbar a {
-        font-size: 0; /* cache le texte */
-    }
+  
+  .full {
+    display: none;
+  }
+    
+  .short {
+    display: inline;
+  }
 
-    .navbar a::first-letter {
-        font-size: 18px; /* affiche seulement la première lettre */
-    }
 }
