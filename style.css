@@ -275,5 +275,6 @@ li {
 }
 
 #signature {
-  position: right;
+  float: right;
+  width: 200px;
 }
