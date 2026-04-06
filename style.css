@@ -9,14 +9,15 @@ nav {
 }
 
 #nav_list {
-  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .nav_button {
-  
+  text-decoration: none;
+  background-color: white;
+  opacity: 0.5
 }
 
 .nav_button a {
