@@ -232,6 +232,7 @@ li {
 
 #mail {
   text-decoration: none;
+  position: relative;
   display: block;
   margin: 30px auto;
   width: 30vw;
@@ -240,6 +241,7 @@ li {
   background-color: saddlebrown;
   color: white;
   font-size: 1.3rem;
+  word-break: break-word;
   border: 5px solid black;
 }
 
@@ -248,28 +250,28 @@ li {
 }
 
 #mail.copied {
-  background-color: #dff5e1;
+  filter: brightness(0.8);
 }
 
 #copy-tooltip {
   position: absolute;
   left: 50%;
-  top: -38px;
-  transform: translateX(-50%) translateY(6px);
-  background: black;
-  color: white;
+  transform: translateX(-50%) translateY(-210px);
+  background: white;
+  color: grey;
   font-size: 12px;
-  padding: 6px 10px;
+  padding: 20px;
   border-radius: 999px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   white-space: nowrap;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
+  font-size: 1.1rem;
 }
 
-#mail.copied #copy-tooltip {
+#mail.copied + #copy-tooltip {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 #price_sent {

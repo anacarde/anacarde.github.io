@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
          setTimeout(() => {
          btn.classList.remove("copied");
-         }, 1600);
+         }, 800);
       });
    });
 });
