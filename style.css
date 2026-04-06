@@ -23,8 +23,8 @@ nav {
   background: rgba(255, 255, 255, 1);
   padding: 2px 14px;
   border: 6px solid #8b5a2b;
-    border-radius: 8px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
+  border-radius: 8px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
 }
 
 .nav_button a {
