@@ -275,5 +275,5 @@ li {
 }
 
 #signature {
-  background-image: url("img/snail.webp"); 
+  position: right;
 }
