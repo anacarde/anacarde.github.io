@@ -5,23 +5,31 @@ body {
 }
 
 nav {
-  
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 #nav_list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  list-style: none;
 }
 
 .nav_button {
   text-decoration: none;
   background-color: white;
-  opacity: 0.5
+  background: rgba(255, 255, 255, 1);
+  padding: 2px 14px;
+  border: 6px solid #8b5a2b;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
 }
 
 .nav_button a {
-  
+  text-decoration: none;
+  color: darkslategrey;
 }
 
 h1 {
@@ -297,4 +305,16 @@ li {
 #signature {
   float: right;
   width: 200px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .navbar a {
+        font-size: 0; /* cache le texte */
+    }
+
+    .navbar a::first-letter {
+        font-size: 18px; /* affiche seulement la première lettre */
+    }
 }
