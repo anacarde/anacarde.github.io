@@ -19,6 +19,7 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
+  padding: 0;
 }
 
 .nav_button {
