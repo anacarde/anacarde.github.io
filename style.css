@@ -35,15 +35,14 @@ li {
 }
 
 #presentation {
-  font-family: "Rubik+Bubbles"; Comic sans Ms; Trebuchet MS;
+  background-image: url("img/boue.webp");
+  font-family: "Rubik Bubbles"; Comic sans Ms; Trebuchet MS;
   font-weight: 500;
   text-align: justify;
   text-indent: 0em;
   line-height: 1.5;
   margin : 0% 7%;
   padding : 50px;
-  border: 1px solid black;
-  border-radius: 40%;
   width: 60vw;
   display: block;
   margin: 0 auto;
