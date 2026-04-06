@@ -35,7 +35,7 @@ li {
 }
 
 #presentation {
-/*  font-family: "UnifrakturCook"; Comic sans Ms; Trebuchet MS;
+  font-family: "Rubik+Bubbles"; Comic sans Ms; Trebuchet MS;
   font-weight: 500;
   text-align: justify;
   text-indent: 0em;
@@ -43,7 +43,7 @@ li {
   margin : 0% 7%;
   padding : 50px;
   border: 1px solid black;
-  border-radius: 40%;*/
+  border-radius: 40%;
   width: 60vw;
   display: block;
   margin: 0 auto;
