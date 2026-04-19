@@ -44,3 +44,10 @@ nav {
   text-decoration: none;
   color: darkslategrey;
 }
+
+#title-pensees {
+  width: 45vw;
+  transform: scaleX(1.20);
+  display: block;
+  margin: 0 auto;
+}
