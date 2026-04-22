@@ -57,6 +57,19 @@ nav {
   cursor: help;
 }
 
+/* petite flèche */
+.has-tooltip::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: calc(125% - 6px);
+  border: 6px solid transparent;
+  border-top-color: #222;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1001;
+
 /* bulle */
 .has-tooltip::after {
   content: attr(data-tooltip);
@@ -79,18 +92,6 @@ nav {
   z-index: 1000;
 }
 
-/* petite flèche */
-.has-tooltip::before {
-  content: "";
-  position: absolute;
-  left: 12px;
-  bottom: calc(125% - 6px);
-  border: 6px solid transparent;
-  border-top-color: #222;
-  opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  z-index: 1001;
 }
 
 .has-tooltip:hover::after,
