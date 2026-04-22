@@ -45,12 +45,6 @@ nav {
   color: darkslategrey;
 }
 
-.sentence {
-  text-indent: 1em;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 #title-mots {
   width: 45vw;
   transform: scaleX(1.20);
@@ -58,23 +52,36 @@ nav {
   margin: 0 auto;
 }
 
+.sentence {
+  text-indent: 1em;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#def-word {
+  
+}
+
+#def-camelCase {
+  
+}
+
+#def-content {
+  
+}
+
+#def-flag {
+  
+}
+
+#def-complement {
+  
+}
+
 .has-tooltip {
   position: relative;
   cursor: help;
 }
-
-/* petite flèche */
-.has-tooltip::before {
-  content: "";
-  position: absolute;
-  left: 12px;
-  bottom: calc(125% - 6px);
-  border: 6px solid transparent;
-  border-top-color: #222;
-  opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  z-index: 1001;
 
 /* bulle */
 .has-tooltip::after {
@@ -98,7 +105,21 @@ nav {
   z-index: 1000;
 }
 
+/* petite flèche */
+
+/*.has-tooltip::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: calc(125% - 6px);
+  border: 6px solid transparent;
+  border-top-color: #222;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 1001;
 }
+*/
 
 .has-tooltip:hover::after,
 .has-tooltip:hover::before,
