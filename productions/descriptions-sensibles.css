@@ -51,3 +51,30 @@ nav {
   display: block;
   margin: 0 auto; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+  
+  .full {
+    display: none;
+  }
+    
+  .short {
+    display: inline;
+  }
+
+}

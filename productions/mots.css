@@ -45,6 +45,12 @@ nav {
   color: darkslategrey;
 }
 
+.sentence {
+
+
+
+}
+
 #title-mots{
   width: 45vw;
   transform: scaleX(1.20);
@@ -100,4 +106,36 @@ nav {
 .has-tooltip:focus::before {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+  
+  .full {
+    display: none;
+  }
+    
+  .short {
+    display: inline;
+  }
+
 }
