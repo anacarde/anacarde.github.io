@@ -46,9 +46,9 @@ nav {
 }
 
 .sentence {
-
-
-
+  text-indent: 1em;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 #title-mots{
